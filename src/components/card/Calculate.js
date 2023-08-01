@@ -10,11 +10,12 @@ export const Book = (props) => {
     </div>
   );
 
-//   React.createElement("div", {}, [
+/*   React.createElement("div", {}, [
 //     React.createElement("h2", {}, props.name),
 //     React.createElement("p", {}, props.year),
 //     React.createElement("p", {}, props.price),
 //   ]);
+*/
 };
 
 export const MathTest = () => {
@@ -36,6 +37,7 @@ export const MathTest = () => {
     </div>
   );
 
+  /*
 //   React.createElement("div", {}, [
 //     React.createElement(
 //       "h1",
@@ -46,4 +48,5 @@ export const MathTest = () => {
 //     React.createElement(Book, { name: "React", year: 2020, price: "987$" }),
 //     React.createElement(Book, { name: "Vue JS", year: 2023, price: "969$" }),
 //   ]);
+*/
 };
