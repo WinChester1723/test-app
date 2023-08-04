@@ -8,6 +8,8 @@ import { About } from "./components/multiPagesTest/About";
 import { Link } from "react-router-dom";
 import Clock from "./components/card/Clocks";
 import LoginControl from "./components/card/LoginControl";
+import Nums from "./components/multiPagesTest/Nums";
+
 
 class App extends React.Component {
   state = {
@@ -54,6 +56,9 @@ class App extends React.Component {
                 <li>
                   <Link to="/login">LoginControl</Link>
                 </li>
+                <li>
+                  <Link to="/nums">Nums</Link>
+                </li>
               </ul>
             </nav>
 
@@ -79,6 +84,7 @@ class App extends React.Component {
               <Route path="/home" element={<Home />} />
               <Route path="/clock" element={<Clock/>}/>
               <Route path="/login" element={<LoginControl/>}/>
+              <Route path="/nums" element={<Nums/>}/>
             </Routes>
           </div>
         </Router>
